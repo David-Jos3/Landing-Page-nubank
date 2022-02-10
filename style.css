@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #820ad1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 48px;
+    background-color: #ffff;
+
+}
+
+.logo img{
+    width:45px;
+}
+
+.logo {
+    display: flex;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.login a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgba(129, 10, 209, 0.664);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.login a:hover {
+    border-bottom: 3px solid rgb(130, 10, 209);
+}
+
+nav li,
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: #111111;
+}
+
+nav a:hover {
+    color: #111111a2;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 10%;
+}
+
+.celular-img {
+    display: block;
+
+
+}
+
+.conteudo h1 {
+    font-size: 58px;
+    color: #ffff;
+    margin-bottom: 30px;
+    font-family: 'Righteous', cursive;
+}
+
+.conteudo {
+    width: 453px;
+}
+
+.conteudo a {
+    color: #ffff;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.conteudo a:hover {
+    border-bottom: 1px solid #ffff;
+}
+
+.campo {
+    position: relative;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    max-width: 20.625rem;
+    margin: auto;
+}
+
+.campo h2 {
+    font-weight: 400;
+    font-family: 'Righteous', cursive;
+    padding: 20px;
+
+}
+
+.campo {
+    padding: 24px;
+
+}
+
+.campo1 input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.botao {
+    padding: 24px;
+}
+
+.botao input {
+    height: 3rem;
+    display: flex;
+    width: 100%;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    cursor: pointer;
+    outline: 0px;
+    align-items: center;
+    border: 0px;
+    font-family: 'Righteous', cursive;
+    padding: 8px;
+    border-radius: 1rem;
+}
+
+.botao input:hover {
+    background-color: rgba(204, 204, 204, 0.65);
+}
+
+.menuMobile {
+    display: none;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.menuMobile:hover {
+    background-color: #ae6adb0a;
+    border-radius: 6px;
+}
+
+.mm-linha {
+    height: 2px;
+    background-color: #810ad1;
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom:0;
+    width:100%;
+    margin: auto auto;
+    padding: 10px 5px;
+    height: 65px;
+
+}
+.rodape a{
+    margin: 5px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.rodape a:hover{
+    text-decoration: solid 2px #ccc;
+    color: #ccc;
+}
+
+.rodape h4 {
+    font-weight: 100;
+    font-size: 18px;
+    font-family: 'Righteous', cursive;
+}
+
+@media(max-width: 1200px) {
+
+    .conteudo h1 {
+        font-size: 42px;
+        margin-bottom: 30px;
+    }
+
+    .conteudo {
+        width: 340px;
+    }
+
+    .campo {
+        position: relative;
+        padding: 1.5rem;
+        border-radius: 1rem;
+        background-color: rgb(255, 255, 255);
+        max-width: 20.625rem;
+        margin: auto;
+    }
+
+
+    .campo1 input {
+        width: 273px;
+        padding: 8px;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        margin-top: 14px;
+    }
+
+    .botao input {
+        margin-top: 19px;
+        width: 246px;
+        height: 50px;
+        border-radius: 30px;
+        padding-left: 17px;
+        font-size: 14px;
+
+    }
+
+
+    .campo h2 {
+        padding: 7px;
+    }
+
+
+    .celular-img img {
+        width: 180px;
+    }
+
+
+}
+
+@media(max-width:950px) {
+
+    .box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .conteudo h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .celular-img {
+        display: none;
+    }
+
+    .campo {
+        position: relative;
+        padding: 1rem;
+        border-radius: 1rem;
+        background-color: rgb(255, 255, 255);
+        max-width: 21.625rem;
+        top: 3rem;
+        margin: auto;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+        flex-direction: column;
+        display: none;
+    }
+
+    header {
+        height: auto;
+    }
+
+    .menuMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
+
+
+@media(max-width:600px){
+
+    .conteudo h1 {
+        font-size: 26px;
+        margin-bottom: 30px;
+    }
+
+    .campo{
+        top: 1rem;
+    }
+}
+  
+
+@media(max-width:400px){
+    .conteudo h1 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+
+    .rodape{
+        height: 40px;
+    }
+}
+
+
+
+@media(max-width:300px){
+
+
+    .box{
+        margin-left: 2rem;
+    }
+
+    .container {
+       
+        width: 112%;
+    }
+
+    .menuMobile {
+        width: 25px;
+        height: 25px;
+        margin-top: 29px;
+        margin-bottom: 28px;
+        margin-left: 20px;
+    }
+    .login a{
+        font-size: 14px;
+    }
+
+    .conteudo h1 {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+
+    .conteudo {
+        width: 247px;
+    }
+    .campo {
+    max-width: 15.625rem;
+    top: 1rem;
+    }
+
+    .campo h2 {
+        padding: 0px;
+    }
+
+    .campo1 input {
+        width: 200px;
+    }
+    .botao input {
+        margin-top: 19px;
+        width: 170px;
+        height: 46px;
+        padding-left: 13px;
+        font-size: 11px;
+    }
+
+    .rodape{
+    width: 114%;
+    margin: auto auto;
+    padding: 8px 1px;
+    bottom: -6rem;
+    }
+}
